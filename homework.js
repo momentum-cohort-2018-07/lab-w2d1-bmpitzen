@@ -80,13 +80,13 @@ function lesser(n1,n2){
 //
 // If any other language code is used, return nothing.
 function multigreeting (name,lang){
-    if (lang == "en"){
+    if (lang ==== "en"){
         return "Hello, " + name + "!"
-    } else if (lang == "es"){
+    } else if (lang ==== "es"){
         return "¡Hola, " + name + "!"
-    } else if (lang == "fr"){
+    } else if (lang ==== "fr"){
         return "Bonjour, " + name + "!"
-    } else if (lang == "eo"){
+    } else if (lang ==== "eo"){
         return "Saluton, " + name + "!"
     } else {
         return
@@ -101,7 +101,7 @@ function multigreeting (name,lang){
 function howOld (date1,date2){
     date1 = new Date(date1)
     date2 = new Date(date2)
-    var ms =(date2.getTime() - date1.getTime())
+    var ms = (date2.getTime() - date1.getTime())
     if (date1<=date2){
         return Math.trunc(ms/(1000*60*60*24*365.25))
     } else {
